@@ -1,0 +1,4 @@
+description = "Check GPT Image setup without creating media"
+prompt = """
+Activate the gpt-image-create skill. Call only openai_list_image_models on gpt-image-by-ace-data-cloud and summarize the reference result. Do not generate or edit image, query tasks, or infer balance. Show only gpt-image-* entries from the returned catalog, not DALL-E or Nano Banana. This does not change the main model.
+"""

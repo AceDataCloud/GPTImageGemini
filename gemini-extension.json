@@ -1,0 +1,28 @@
+{
+  "name": "gpt-image-by-ace-data-cloud",
+  "version": "0.1.0",
+  "description": "GPT Image image generation and editing via Ace Data Cloud, with native Token setup and same-task results. Independent integration, not an official service product.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "gpt-image-by-ace-data-cloud": {
+      "httpUrl": "https://openai.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ACEDATACLOUD_GPT_IMAGE_TOKEN}"
+      },
+      "includeTools": [
+        "openai_list_image_models",
+        "openai_generate_image",
+        "openai_edit_image",
+        "openai_get_task"
+      ]
+    }
+  },
+  "settings": [
+    {
+      "name": "Ace Data Cloud GPT Image API Token",
+      "description": "Sign in or register at https://platform.acedata.cloud/console/applications?utm_source=gemini-cli&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagegemini_install_token . Open General application, copy or create a service Key with GPT Image access. Paste the raw token without Bearer. Check permissions, balance and price before generation.",
+      "envVar": "ACEDATACLOUD_GPT_IMAGE_TOKEN",
+      "sensitive": true
+    }
+  ]
+}

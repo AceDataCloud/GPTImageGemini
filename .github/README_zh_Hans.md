@@ -29,7 +29,7 @@ gemini extensions install https://github.com/AceDataCloud/GPTImageGemini --ref v
 ## 2. 注册登录并取 Token
 
 1. [注册或登录 Ace](https://platform.acedata.cloud?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagegemini_zh_register)。
-2. 打开 [Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagegemini_zh_api_key)，没有 **General application** 则先初始化；检查 GPT Image 权限与余额。服务 Key 限定对应服务，通用 Key 也受账号/API权限限制。
+2. 打开 [Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagegemini_zh_api_key)，打开**通用应用**，检查 GPT Image 权限与余额。服务 Key 限定对应服务，通用 Key 也受账号/API权限限制。
 3. 复制卡片 **API KEY**，或 **Manage Keys → Create** 建专用密钥，建议名称 `Gemini CLI GPT Image`。
 
 ![复制或管理已有脱敏 API Key](../_assets/tutorial/get-api-key-en.png)

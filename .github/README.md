@@ -29,7 +29,7 @@ Read the native consent prompt. The extension adds only GPT Image MCP tools, the
 ## 2. Register/sign in and get a service Token
 
 1. [Register or sign in to Ace](https://platform.acedata.cloud?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagegemini_register).
-2. Open [Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagegemini_api_key). Initialize **General application** if missing. Check GPT Image entitlement and current balance. A service application's Key is limited to that service; general keys remain subject to account/API restrictions.
+2. Open [Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagegemini_api_key). Open **General Application**. Check GPT Image entitlement and current balance. A service application's Key is limited to that service; general keys remain subject to account/API restrictions.
 3. Copy **API KEY** from the card, or **Manage Keys → Create** for a dedicated Key named `Gemini CLI GPT Image`.
 
 ![Copy an existing masked Ace Key or manage keys](../_assets/tutorial/get-api-key-en.png)
